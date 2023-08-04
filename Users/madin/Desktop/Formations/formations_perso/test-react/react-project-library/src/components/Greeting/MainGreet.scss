@@ -1,0 +1,6 @@
+@use "./_Greeting2.scss";
+
+.Greeting {
+    @include Greeting2.BigGreet;
+}
+

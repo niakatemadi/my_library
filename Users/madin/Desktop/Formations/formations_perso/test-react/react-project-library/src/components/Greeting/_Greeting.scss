@@ -1,0 +1,17 @@
+$couleur1 : green;
+$couleur2 : blue;
+$couleur3 : red;
+
+@mixin BigGreet {
+    color: orange;
+    font-size: 48;
+    font-weight: bold;
+
+    &:hover {
+        cursor:pointer
+    }
+}
+
+.Greeting {
+    color: $couleur3;
+}
