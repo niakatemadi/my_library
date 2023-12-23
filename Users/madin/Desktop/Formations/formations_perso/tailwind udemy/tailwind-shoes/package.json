@@ -11,9 +11,11 @@
     "format": "prettier --write ./src"
   },
   "dependencies": {
+    "@fontsource-variable/nunito-sans": "^5.0.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.12.0"
+    "react-icons": "^4.12.0",
+    "tw-merge": "^0.0.1-alpha.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
